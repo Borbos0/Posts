@@ -1,4 +1,4 @@
-# React + Redux toolkit + Ant Design +
+# React + Redux toolkit + Ant Design
 
 ## Функционал
 

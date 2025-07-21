@@ -1,0 +1,9 @@
+.posts-list {
+  min-height: 100px;
+}
+
+.posts-end {
+  text-align: center;
+  margin: 16px;
+  color: #aaa;
+}
