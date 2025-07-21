@@ -12,7 +12,8 @@ function PostCard({ post }) {
         ))}
       </div>
       <div className="post-reactions">
-        Лайков: {post.reactions.likes} | Дизлайков: {post.reactions.dislikes}
+        Реакций: {post.reactions.likes + post.reactions.dislikes} (лайков:{" "}
+        {post.reactions.likes}, дизлайков: {post.reactions.dislikes})
       </div>
     </Card>
   );

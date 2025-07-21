@@ -3,7 +3,7 @@ import PostCard from "./PostCard";
 import { List, Spin } from "antd";
 import { useInView } from "react-intersection-observer";
 import "./PostsList.css";
-import { useGetPostsQuery } from "../../api/postsApi";
+import { useGetPostsQuery } from "../../api/PostsApi";
 
 const LIMIT = 10;
 
